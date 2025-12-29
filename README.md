@@ -6,7 +6,7 @@ The Tennessee Department of Revenue (“TNDoR”) provides monthly data on retai
 Retail sales for the following types of retail establishments are included in the data: (1) Building Materials;  (2) General Merchandise; (3) Food Stores; (4) Autos Boats, & Aircraft dealers; (5) Service Stations; (6) Apparel & Accessories;  (7) Furniture &Home Décor; (8) Eating & Drinking; (9) Other Retail. Total retail sales are also reported.  Spreadsheets contain monthly data and end-of-year or year-to-date data.
 
 
-## Approach to creating data frames
+## Approach to creating dataframes
 
 The script to download the Excel files was written on December 24, 2025.  When new revenue data for 2025 is released, the script will throw an error.  The reader can simply update the link for the 2025 data to remove the error and incorporate additional data. If the destination directory for the downloaded files is changed, be sure to change it in script that creates the dataframes.
 
