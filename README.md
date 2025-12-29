@@ -20,7 +20,6 @@ type
 sales
 
 The variable type captures the type of retail establishment where sales occur.  It takes on the following values:
-
 total - Total retail sales
 build_mat - Building Materials        
 gen_merch - General Merchandise Stores         
