@@ -42,7 +42,7 @@ if (!dir.exists("Data")) {dir.create("Data")}
 
 download_data <- function(x) {
   fname <- stringr::str_extract(x, "(?<=/)[^/]+$")
-  httr::GET(x, write_disk(fname, overwrite = TRUE))
+  httr::GET(x, write_disk(paste0("Data/", fname, overwrite = TRUE))
 }
 
 lapply(objs, download_data)
